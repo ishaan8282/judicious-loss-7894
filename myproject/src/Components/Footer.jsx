@@ -3,6 +3,16 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
 <div>
+  <div style={{display:'flex', justifyContent:"space-between", width:"70%", margin:"auto", backgroundColor:"#ffeecc", padding:"20px", boxSizing:"border-box"}}>
+  <div className={styles.Airgaragelogo}>
+                    <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png" width="150px"/>
+                </div>
+
+                <div>
+                   <h3 style={{color:"#fb9361", marginBottom:"20px", marginTop:"none"}}>21st Century Parking Operator</h3> 
+                </div>
+    </div>  
+
     <div className={styles.Footer} >
 
         <div>
@@ -39,9 +49,7 @@ function Footer() {
         </div>
      
     </div>
-    <hr style={{width:"70%", 
-        color:"#fc8e59",
-     fontSize:"20px"}} />
+    
 </div>
   )  
 }

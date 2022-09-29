@@ -17,8 +17,10 @@ function Navbar() {
         fontSize: "12px",
         fontWeight: 800,
         letterSpacing: ".14em",
-        lineHeight: "24px"
-      }} to="/Integration"><p>Find Parking</p></Link> 
+        lineHeight: "24px",
+        padding : "5px",
+        boxSizing:"border-box"
+      }} to="/FindParking"><p>Find Parking</p></Link> 
 
 </div>
 
@@ -28,9 +30,11 @@ function Navbar() {
         fontSize: "12px",
         fontWeight: 800,
         letterSpacing: ".14em",
-        lineHeight: "24px"
+        lineHeight: "24px",
+        padding : "5px",
+        boxSizing:"border-box"
       }} 
-        to="/Blog"> <p>Log in </p> </Link>
+        to="/Login"> <p>Log in </p> </Link>
 </div>
 
 <div>
@@ -44,7 +48,7 @@ function Navbar() {
        
         
       }} 
-        to="/Blog"> <p>Contact Customer Support </p> </Link>
+        to="/Contact"> <p>Contact Customer Support </p> </Link>
 </div>
 
 <div>
