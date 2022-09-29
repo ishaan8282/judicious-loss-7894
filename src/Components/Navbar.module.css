@@ -1,0 +1,88 @@
+.NavContainer{
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    background-color: #ffeecc  ;
+}
+
+.NavContainer div{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  /* border: 1px solid red; */
+  margin: auto;
+
+}
+
+.logo{
+  
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 160px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.InsideNav>div::nth-child(1),:nth-child(2){
+    padding: 10px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+.InsideNav>div:nth-child(3) {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.InsideNav>div:hover{
+    background-color:  black;
+    /* padding: 5px; */
+    box-sizing: border-box;
+    border-radius: 10px;
+   
+     
+}
+.InsideNav>:last-child:hover
+{
+  /* background-color: none; */
+}
+.InsideNav p:hover{
+    color: white;
+    
+}
+
+.InsideNav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* gap: 10px */
+}
+.InsideNav>p{
+    color:  #282828;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .14em;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+}
+
+button{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+ button:hover{
+    background-color: white;
+    /* border: 2px solid #00ad95; */
+    color: black;
+} 
