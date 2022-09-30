@@ -1,47 +1,52 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styles from "./Footer.module.css";
 function Footer() {
   return (
-<div>
+<div style={{paddingBottom:"25px"}}>
+  <div style={{display:'flex', justifyContent:"space-between", width:"100%", margin:"auto", backgroundColor:"#ffeecc", padding:"200px", paddingBottom:"10px" , paddingTop:"20px", boxSizing:"border-box"}}>
+    <Link className={styles.Airgaragelogo}>
+                    <img style={{ marginTop:"11px", paddingLeft:"0px" }} src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png" width="150px"/>
+                </Link>
+
+                <div>
+                   <h3 style={{color:"#fb9361", marginBottom:"20px", marginTop:"none"}}>21st Century Parking Operator</h3> 
+                </div>
+    </div>  
+
     <div className={styles.Footer} >
 
         <div>
-        <h3>Product</h3>
-            <p>Plans & Pricing</p>
-            <p>Integrations</p>
-            <p>Product Updates</p>
-            <p>Slack Bot</p>
-            <p>Microsoft Teams</p>
+        <h3>Company</h3>
+            <p>About</p>
+            <p>Careers</p>
+            <p>FAQ</p>
+            <p>Contact Customer Support</p>
+            <p>Privacy Policy</p>
+        </div>
+        <div>
+        <h3>Uses</h3>
+            <p>Hotels</p>
+            <p>Garages</p>
+            <p>Surface Lots</p>
+            <p>Airports</p>
         </div>
         <div>
         <h3>Features</h3>
-            <p>Online Timesheet For Efficient Companies</p>
-            <p>Time Tracker for every business</p>
-            <p>Reports for billing and payroll to reduce administrative work</p>
-            <p>Attendance tracker for every business</p>
-            <p>Project Management Time Tracking Software</p>
+            <p>Access Control</p>
+            <p>Parking management</p>
+            <p>Payment Collection</p>
+            <p>Gate arm Alternative</p>
         </div>
         <div>
-        <h3>Apps</h3>
-            <p>Web App</p>
-            <p>Time Tracker app for Mac</p>
-            <p>Time Tracker for Windows</p>
-            <p>iPhone app</p>
-            <p>Android app</p>
-        </div>
-        <div>
-        <h3>Company</h3>
-            <p>About Us</p>
-            <p>Blog</p>
-            <p>Media kit</p>
-            <p>Privacy Policy</p>
-            <p>DMCA Policy</p>
+        <h3>Find Parking</h3>
+            <p>on iOS App</p>
+            <p>on Android App</p>
+            <p>on Web</p>
         </div>
      
     </div>
-    <hr style={{width:"70%", 
-        color:"#fc8e59",
-     fontSize:"20px"}} />
+    
 </div>
   )  
 }

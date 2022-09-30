@@ -1,0 +1,51 @@
+input{
+  background: #f2f2f2;
+    color: #333;
+    border: 0 solid #fff;
+    -webkit-tap-highlight-color: #EDEDED;
+    width: 50%;
+    height: 49px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logindiv>img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* border: 1px solid red; */
+    width: 200px;
+    margin-bottom: 20px   ;
+    margin-top: 30px;
+    height: 50px;
+}
+  .logindiv>button{
+    background-color: #000;
+    width: 37%;
+    font-weight: lighter;
+    border-radius: 5px;
+  }
+
+  .loginMain{
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 100%;
+   justify-content: space-between;
+    margin: auto;
+    background-color: #ffeecc;
+  }
+  .logindiv{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: auto;
+    margin-right: 30px;
+    background-color: white;
+  }
+  .loginMain>img{
+     width: 30%;
+    object-fit: cover;
+    margin:auto;
+    /* background-color:#ffeecc; */
+     height: 100%;
+  }
+

@@ -1,0 +1,64 @@
+body
+{
+    background-color:rgb(244,246,248,255);
+}
+.sign
+{
+    display: flex;
+}
+.sign>.imgsign
+{
+    width:40%;
+    background-color: rgb(255,238,204);
+   
+}
+form
+{
+    padding-top:10%;
+    padding-left:5% ;
+}
+.imgsign>img
+{
+    width:100%;
+    background-color: rgb(255,238,204);
+    margin-right: 30px;
+}
+.sign>div
+{
+    background-color: white;
+    width:60%;
+    margin-top: 100px;
+}
+.sign>div>form>label
+{
+    font-size:15px;
+    padding:10px;
+    margin-bottom:20px;
+    margin-left:100px;
+    
+}
+.sign>div>form>input
+{
+    width:400px;
+    height:40px;
+    margin-bottom:20px;
+    background-color: rgb(243,243,243);
+    border: 1px solid rgb(222, 227, 234);
+    border-radius: 5px;
+    margin-top: 10px;
+    color:rgb(243,243,243) ;
+    padding-left:10px;
+    margin-left:100px;
+
+}
+.sign>div>form>button
+{
+    background-color:rgb(250, 130, 76) ;
+    width:410px;
+    border-radius: 5px;
+    font-size:15px;
+    border: 1px solid rgb(250, 130, 76);
+    color: white;
+    padding:15px;
+    margin-left:100px;
+}

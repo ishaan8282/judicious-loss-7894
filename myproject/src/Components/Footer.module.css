@@ -5,18 +5,27 @@
      text-align: left;
      margin: auto;
      /* border: 1px solid; */
-     width: 70%;
+     width: 100%;
      padding: 10px;
      box-sizing: border-box;
      background-color:#ffeecc ;
     
  }
+ .Footer>div>h3{
+    font-size: 25px;
+ }
+ 
  .Footer>div>h3~P{
     color: #fb9361;
     font-weight: bold;
+    font-size: 18px;
  }
  P{
     color: #fb9361 ;
+    font-size: 25px; 
+ }
+ h3{
+    color:#fb9361 ;
  }
  
  .Footer>div{
