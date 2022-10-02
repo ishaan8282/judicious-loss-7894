@@ -71,16 +71,16 @@ function Home() {
                     </div>
                     <div className={styles.hMapDetails_2_2}>
                         <div>
-                            <a href="municipalities.html">Municipalities</a>
-                            <a href="#">Religious Institutions</a>
-                            <a href="#">Apartment Complexes</a>
-                            <a href="#">Small Businesses</a>
+                            <Link to="municipalities.html">Municipalities</Link>
+                            <Link to="#">Religious Institutions</Link>
+                            <Link to="#">Apartment Complexes</Link>
+                            <Link to="#">Small Businesses</Link>
                         </div>
                         <div>
-                            <a href="#">Parking Garages</a>
-                            <a href="#">Gyms</a>
-                            <a href="#">Hotels and Resorts</a>
-                            <a href="#">State and National Parks</a>
+                            <Link to="#">Parking Garages</Link>
+                            <Link to="#">Gyms</Link>
+                            <Link to="#">Hotels and Resorts</Link>
+                            <Link to="#">State and National Parks</Link>
                         </div>
                     </div>
                 </div>
@@ -251,9 +251,9 @@ function Home() {
                </div>
             </div>
             <div className={styles.hMP_2}>
-                <Link to="/">
+                <div>
                     <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d5b136cbbd41f000200acc4_app.png" width="270"/>
-                </Link>
+                </div>
             </div>
         </div>
 

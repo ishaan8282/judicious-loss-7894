@@ -86,3 +86,22 @@ button{
     /* border: 2px solid #00ad95; */
     color: black;
 } 
+@media only screen and (max-width: 1000px) {
+    /* .NavContainer {
+        justify-content: flex-end;
+        align-items: center;
+        width: 20%;
+        min-width: 100px;
+    } */
+
+    /* .NavContainer {
+        position: absolute;
+        opacity: 0;
+    } */
+
+    /* .NavContainer{
+        position: static;
+        opacity: 1;
+        z-index: 2;
+    } */
+}

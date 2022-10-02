@@ -929,3 +929,23 @@ input[id="hNav2Hamburger"]:checked ~ .hNav_2_Ham {
         flex-wrap: wrap;
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    .hHNav2 {
+        justify-content: flex-end;
+        align-items: center;
+        width: 20%;
+        min-width: 100px;
+    }
+
+    .hHNav2_1 {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .hHNav2_2 {
+        position: static;
+        opacity: 1;
+        z-index: 2;
+    }
+}

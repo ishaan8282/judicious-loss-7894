@@ -4,6 +4,7 @@ import Contact from '../Components/Contact'
 import FindParking from '../Components/FindParking'
 import Home from '../Components/Home'
 import Login from '../Components/Login'
+import PrivateRoute from '../Components/PrivateRoute'
 import Signup from '../Components/Signup'
 
 

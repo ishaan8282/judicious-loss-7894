@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from "./Navbar.module.css"
+// import {FaBars} from "react-icons/fa"
 function Navbar() {
   return (
     <div>

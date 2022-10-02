@@ -1,0 +1,149 @@
+.find_parking_main{
+   
+    width: 100%;
+    /* border: 1px solid; */
+}
+.parking_header{
+    width: 100%;
+   
+}
+.airgarage_img{
+  
+    width: 15%;
+    padding: 1%;
+}
+.find_parking_heading{
+
+text-align: center;
+margin-top: 1%;
+margin-bottom: 2%;
+}
+.find_parking_heading>p{
+margin-top: 1%;
+}
+.location_type , .location_down{
+    display: flex;
+    width: 70%;
+  
+    margin: auto;
+    margin-bottom: 1%;
+}
+.location_type >div{
+width: 40%;
+justify-content: center;
+font-weight: bold;
+text-align: left;
+margin-left: 25px;
+
+}
+button{
+    background-color: #fb905d;
+}
+
+/* .location_down >div:nth-child(1){
+    flex-grow: 2;
+    justify-content: center;
+    border: 1px solid grey; 
+    border-radius: 5px; 
+    height: 50px;
+    margin-right: 0%;
+    
+    } */
+    .location_down >:nth-child(2){
+        flex-grow: 1;
+        justify-content: center;
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: 50px;
+        margin-right: 2%;
+        }
+        .location_down >div:nth-child(3){
+            flex-grow: 1;
+            justify-content: center;
+            border: 1px solid rgba(255, 231, 184, 255); 
+            border-radius: 5px;
+            background-color: rgba(255, 231, 184, 255);
+            height: 50px;
+            
+            }
+            .search_txt{
+                text-align: center;
+                margin: 5px;
+                /* color: tomato; */
+            }
+            .address_txt{
+            border: 1px solid black;
+            margin-right: 20px;
+            margin-left: 20px;
+            border-radius: 7px;
+            width: 40%;
+            }
+.popular_search{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.hollywood_pic{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+    margin: auto;
+}
+.hollywood_pic >div{
+    width: 25%;
+margin-right:3%;
+
+}
+.hollywood_pic img{
+  
+    width: 100%;
+}
+.hollywood_pic >div >h1{
+    margin-top: 5%;
+    text-align: center;
+}
+.hollywood_pic >div >p{
+    text-align: center;
+    margin-top: 5%;
+    color: grey;
+}
+.parking_footer{
+    width: 100%;
+    margin-top: 3%;
+    background-color: rgba(250,130,76,255);
+    
+}
+.parking_footer >div{
+    text-align: center;
+
+    padding-top: 2%;
+    color: white;
+}
+.homepage_term_contact{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+   
+}
+.homepage_term_contact >div{
+    margin-right: 10px;
+    color: white;
+}
+.select{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    margin-left: 40px;
+    border-radius: 7px;
+}
+@media screen and (max-width: 600px) {
+.hollywood_pic{
+    display: grid;
+}
+.hollywood_pic >div{
+    width: 100%;
+}
+}
